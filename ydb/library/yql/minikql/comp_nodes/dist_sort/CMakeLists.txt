@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_FLAGS "-O3")
 
 add_executable(distributed_sort main.cpp)
+
+add_executable(merge_speed_test algorithms/merge.cpp)
